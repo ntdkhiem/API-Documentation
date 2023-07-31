@@ -1,4 +1,4 @@
-# Understand Host Names
+# Host Names
 
 MassEnergize's development workflow has three stages:
 

@@ -47,7 +47,36 @@ const sidebars = {
     "api/database-models",
   ],
 
-  docSidebar: ["overview", "guides/understand-host-names", "guides/testing"],
+  docSidebar: [
+    "introduction",
+    {
+      type: "category",
+      label: "Installation",
+      collapsed: false,
+      items: [
+        "installation/api",
+        "installation/frontend-admin",
+        "installation/frontend-portal",
+        "installation/frontend-mobile",
+      ]
+    },
+    {
+      type: "category",
+      label: "Guides",
+      items: [
+        "guides/getting-started",
+        "guides/testing",
+      ]
+    },
+    {
+      type: "category",
+      label: "Knowledge Base",
+      items: [
+        "knowledge/architecture",
+        "knowledge/host-names",
+        "knowledge/user-roles"]
+    }
+  ]
 };
 
 module.exports = sidebars;

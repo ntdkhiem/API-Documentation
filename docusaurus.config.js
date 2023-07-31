@@ -12,7 +12,7 @@ const config = {
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://gorgeous-starlight-3c4b5c.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -40,10 +40,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/ntdkhiem/MassEnergize-Documentation/tree/master",
+            "https://github.com/massenergize/API-Documentation/tree/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -55,8 +54,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
       navbar: {
         logo: {
           alt: "MassEnergize Logo",
@@ -67,7 +64,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "docSidebar",
             position: "left",
-            label: "Guides",
+            label: "Docs",
           },
           {
             type: "docSidebar",

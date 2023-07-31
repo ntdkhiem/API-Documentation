@@ -34,10 +34,6 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <div className={styles.section}>
-        <p>About API</p>
-        <p>What does it solve?</p>
-      </div>
     </Layout>
   );
 }
