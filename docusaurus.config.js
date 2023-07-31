@@ -12,7 +12,7 @@ const config = {
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://gorgeous-starlight-3c4b5c.netlify.app/",
+  url: "https://me-doc.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -42,7 +42,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/massenergize/API-Documentation/tree/master",
+            "https://github.com/massenergize/API-Documentation/tree/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -73,7 +73,7 @@ const config = {
             label: "Reference",
           },
           {
-            href: "https://github.com/ntdkhiem/MassEnergize-Documentation",
+            href: "https://github.com/massenergize/API-Documentation",
             label: "GitHub",
             position: "right",
           },
