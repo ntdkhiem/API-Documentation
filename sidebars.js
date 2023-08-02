@@ -65,6 +65,7 @@ const sidebars = {
       label: "Guides",
       items: [
         "guides/getting-started",
+        "guides/create-super-admin",
         "guides/testing",
       ]
     },
