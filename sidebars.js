@@ -64,7 +64,6 @@ const sidebars = {
       type: "category",
       label: "Guides",
       items: [
-        "guides/getting-started",
         "guides/create-super-admin",
         "guides/create-cadmin",
         "guides/testing",
