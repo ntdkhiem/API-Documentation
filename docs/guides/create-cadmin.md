@@ -4,6 +4,8 @@ title: Create CAdmin Account
 
 # Create A Community Admin Account
 
+In this section, you will learn how to create a community admin account. To learn more about community admin, please refer to [User Roles](/docs/knowledge/user-roles)
+
 **1. Follow [Create SAdmin Account](/docs/guides/create-super-admin.md) tutorial.**
 
 **2. Add new CAdmin profile to the applicable community.**

@@ -4,6 +4,8 @@ title: Create SAdmin Account
 
 # Create A Super Admin Account
 
+In this section, you will learn how to create a super admin account. To learn more about super admin, please refer to [User Roles](/docs/knowledge/user-roles)
+
 **1. Be sure `api/src/_main_/settings.py` is set to run from the local database. Not PROD or CANARY.**
 
 ![settings.py](../../static/img/csa-settings.png)
