@@ -66,6 +66,7 @@ const sidebars = {
       items: [
         "guides/getting-started",
         "guides/create-super-admin",
+        "guides/create-cadmin",
         "guides/testing",
       ]
     },
