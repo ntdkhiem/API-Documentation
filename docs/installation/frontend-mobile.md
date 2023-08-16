@@ -14,6 +14,11 @@ git clone https://github.com/massenergize/ME-mobile.git
 Obtain `.env`, `google-services.json`, and `GoogleServiceInfo.plist` files from Brad or any authorized admin and place it in the root directory of the project.
 
 ## Set up Expo account
+
+:::info
+You may skip this step if you have a build version of the app installed (or a link to download the build).
+:::
+
 Create your Expo account here: https://expo.dev/signup
 
 Install EAS CLI:
@@ -27,6 +32,11 @@ eas login
 ```
 
 ## Include secrets in EAS Build
+
+:::info
+You may skip this step if you have a build version of the app installed (or a link to download the build).
+:::
+
 Import secrets from `.env`:
 ```
 eas secret:push --scope project --env-file {location of .env}
@@ -40,7 +50,7 @@ eas secret:create --scope project --name GOOGLE_SERVICES_PLIST --type file --val
 ## Run a build
 Create your build on Android Emulator or iOS Simulator is the easiest way to get it up and running: https://docs.expo.dev/build/setup/#build-for-android-emulatordevice-or-ios-simulator
 
-Run the following commands to start:
+When you have the build version installed on your device, run the following commands to start (make sure you're in `frontend/`):
 ```
 npm install && npm start
 ```
