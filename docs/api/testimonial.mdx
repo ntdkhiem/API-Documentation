@@ -26,7 +26,10 @@ This page contains all actions related to [Testimonial()](database-models#testim
 <Highlight level={0}>Login Required</Highlight>
 
 - Required: `title:str`
-- `community_id:int`, `action_id:int`, `vendor_id:int`
+- Optional: `image:file`
+- `community:int`, `action:int`, `vendor:int`, `preferred_name:str`, `testimonial_id:str`
+
+This route is similar to `/testimnoials.create`, except it's used for user-submitted testimonials. Once the request is processed successfully, the community admins will be notified if it's a new testimonial or update if existed.
 
 ### /testimonials.list
 
